@@ -1,0 +1,52 @@
+CLOUD POSTURE DASHBOARD WIREFRAMES
+
+-------------------------------------
+SCREEN 1: DASHBOARD
+-------------------------------------
+Title: Cloud Posture Dashboard
+
+Summary:
+- Total Issues: 120
+- Critical: 20
+- Medium: 50
+- Low: 50
+
+Filters:
+- Cloud (AWS, Azure, GCP)
+- Region
+- Severity
+
+Issue List:
+- S3 Public Access | High | AWS
+- Open Port 22 | High | AWS
+- Weak Password | Low | GCP
+
+
+-------------------------------------
+SCREEN 2: FILTERS
+-------------------------------------
+Options:
+- Cloud: AWS / Azure / GCP
+- Severity: High / Medium / Low
+- Region: us-east-1, ap-south-1
+
+Action:
+[Apply Filters]
+
+
+-------------------------------------
+SCREEN 3: ISSUE DETAIL
+-------------------------------------
+Issue: S3 Public Access
+Severity: High
+Cloud: AWS
+Region: ap-south-1
+
+Description:
+This bucket is publicly accessible.
+
+Recommendation:
+Disable public access.
+
+Action:
+[Fix Now]
